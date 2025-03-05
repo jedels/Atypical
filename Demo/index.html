@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Cloning Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Voice Cloning Demo</h1>
+    <p>A real-time speech recognition and voice cloning application with GUI interface.</p>
+
+    <h2>Features</h2>
+    <ul>
+        <li>Real-time speech recognition</li>
+        <li>Voice cloning capabilities</li>
+        <li>Audio visualization</li>
+        <li>Recording and playback functionality</li>
+        <li>Customizable voice characteristics</li>
+        <li>Timestamped audio file saving</li>
+    </ul>
+
+    <h2>Installation</h2>
+    <ol>
+        <li>Clone the repository:
+            <pre><code>git clone https://github.com/jedels/Atypical
+cd Atypical/Demo</code></pre>
+        </li>
+        <li>Create a virtual environment:
+            <pre><code>python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate</code></pre>
+        </li>
+        <li>Install requirements:
+            <pre><code>pip install -r requirements.txt</code></pre>
+        </li>
+    </ol>
+
+    <h2>Usage</h2>
+    <p>Run the application:</p>
+    <pre><code>python simple_gui_clone7.py -u username -m section_name --checkpoint-dir checkpoints</code></pre>
+
+    <h2>Requirements</h2>
+    <ul>
+        <li>Python 3.7 or higher</li>
+        <li>Working microphone</li>
+        <li>Audio output device</li>
+    </ul>
+
+    <h2>Dependencies</h2>
+    <ul>
+        <li>PyTorch</li>
+        <li>SpeechBrain</li>
+        <li>sounddevice</li>
+        <li>PyAudio</li>
+        <li>numpy</li>
+        <li>matplotlib</li>
+        <li>scipy</li>
+    </ul>
+</body>
+</html> 
