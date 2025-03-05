@@ -63,4 +63,4 @@ python simple_gui_clone7.py
 
 ## License
 
-This project is part of the Atypical Speech Research Initiative.
+This is the project page for the Atypical Speech Project
